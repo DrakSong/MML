@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<LocalizationData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Items>
+    <Item Key="manager_window_title" Value="FinalPatchManager" />
+    <Item Key="tab_label_build" Value="Build" />
+    <Item Key="tab_label_deploy" Value="Deploy" />
+    <Item Key="tab_label_advanced" Value="Advanced" />
+    <Item Key="build_tab_new" Value="New Build" />
+    <Item Key="build_tab_build_tip" Value="Build" />
+    <Item Key="build_tab_copy_tip" Value="Copy to StreamingAssets" />
+    <Item Key="build_tab_reveal_tip" Value="Reveal in folder" />
+    <Item Key="build_tab_edit_tip" Value="Edit" />
+    <Item Key="build_tab_delete_tip" Value="Delete" />
+    <Item Key="build_tab_save_tip" Value="Save" />
+    <Item Key="build_tab_discard_tip" Value="Discard" />
+    <Item Key="build_tab_build_name" Value="Name" />
+    <Item Key="build_tab_build_desc" Value="Description" />
+    <Item Key="build_tab_build_target" Value="Build Target" />
+    <Item Key="build_tab_build_version" Value="Version" />
+    <Item Key="build_tab_delete_comfirm_title" Value="Delete Build" />
+    <Item Key="build_tab_delete_comfirm_message" Value="Comfirm to delete this build?" />
+    <Item Key="build_tab_delete_comfirm_yes" Value="Yes" />
+    <Item Key="build_tab_delete_comfirm_no" Value="No" />
+    <Item Key="deploy_tab_new_data" Value="New Deploy Data" />
+    <Item Key="deploy_tab_select_data" Value="Select Deploy Data" />
+    <Item Key="deploy_tab_new_channel" Value="New Channel" />
+    <Item Key="deploy_tab_overwrite_data_title" Value="Overwrite Deploy Data" />
+    <Item Key="deploy_tab_overwrite_data_message" Value="Deploy Data has already exist. Do you want to overwrite?" />
+    <Item Key="deploy_tab_overwrite_data_yes" Value="Overwrite" />
+    <Item Key="deploy_tab_overwrite_data_no" Value="No" />
+    <Item Key="deploy_tab_edit_tip" Value="Edit" />
+    <Item Key="deploy_tab_delete_tip" Value="Delete" />
+    <Item Key="deploy_tab_save_tip" Value="Save" />
+    <Item Key="deploy_tab_discard_tip" Value="Discard" />
+    <Item Key="deploy_tab_channel_name" Value="Channel Name" />
+    <Item Key="deploy_tab_channel_url" Value="URL" />
+    <Item Key="deploy_tab_channel_build" Value="Build" />
+    <Item Key="deploy_tab_channel_version" Value="Version" />
+    <Item Key="deploy_tab_delete_channel_comfirm_title" Value="Delete Channel" />
+    <Item Key="deploy_tab_delete_channel_comfirm_message" Value="Comfirm to delete this channel?" />
+    <Item Key="deploy_tab_delete_channel_comfirm_yes" Value="Yes" />
+    <Item Key="deploy_tab_delete_channel_comfirm_no" Value="No" />
+    <Item Key="advanced_tab_build_label" Value="Build" />
+    <Item Key="advanced_tab_asset_path_label" Value="Asset Path(?)" />
+    <Item Key="advanced_tab_asset_path_tip" Value="assets in this folder will be built to asset bundles" />
+    <Item Key="advanced_tab_extract_duplicated_dependency_label" Value="Ext Duplicated Deps(?)" />
+    <Item Key="advanced_tab_extract_duplicated_dependency_tip" Value="enable it to ensure that assets referred by multi bundles will build to asset bundles automatically to reduce total bundle size.(even it not in the asset path)" />
+    <Item Key="advanced_tab_bundle_offset_label" Value="Bundle Offset(?)" />
+    <Item Key="advanced_tab_bundle_offset_tip" Value="write some empty bytes in each asset bundles for simple encryption. NOTE that it will large the size of asset bundles." />
+    <Item Key="advanced_tab_build_callback_label" Value="Build Callback(?)" />
+    <Item Key="advanced_tab_build_callback_tip" Value="implement BBGo.FinalPatch.IBuildEditorCallback to receive build callbacks." />
+    <Item Key="advanced_tab_path_converter_label" Value="Path Converter(?)" />
+    <Item Key="advanced_tab_path_converter_tip" Value="refer to BBGo.FinalPatch.DefaultPathConverter for more details." />
+    <Item Key="advanced_tab_patch_label" Value="Patch" />
+    <Item Key="advanced_tab_auto_patch_label" Value="Auto Patch(?)" />
+    <Item Key="advanced_tab_auto_patch_tip" Value="it will patch automaticaly if enabled." />
+    <Item Key="advanced_tab_patch_retry_count_label" Value="Retry Count" />
+    <Item Key="advanced_tab_patch_retry_interval_label" Value="Retry Interval(sec)" />
+    <Item Key="advanced_tab_pool_label" Value="Pool" />
+    <Item Key="advanced_tab_max_cache_label" Value="Max Cache" />
+    <Item Key="advanced_tab_auto_release_label" Value="Auto Release(?)" />
+    <Item Key="advanced_tab_auto_release_tip" Value="enable it to ensure the pool was released automaticaly after a delay when it was idle. (highly recommend to enable)" />
+    <Item Key="advanced_tab_auto_release_delay_label" Value="Release Delay(sec)" />
+    <Item Key="advanced_tab_other_label" Value="Other" />
+    <Item Key="advanced_tab_apply_editor_mode_label" Value="Apply Editor Mode(?)" />
+    <Item Key="advanced_tab_apply_editor_mode_tip" Value="enable it to load asset directly instead of asset bundle in EDITOR MODE, so you don't need to build asset frequently.(recommend to enable)" />
+    <Item Key="advanced_tab_persistent_path_label" Value="Persistent Path" />
+    <Item Key="advanced_tab_browse_tip" Value="Browse" />
+    <Item Key="advanced_tab_reveal_tip" Value="Reveal in folder" />
+    <Item Key="final_patch_deploy_url" Value="Deploy Data URL" />
+    <Item Key="final_patch_deploy_channel" Value="Channel Name" />
+    <Item Key="final_patch_playing_mode_tip" Value="More details will show in playing mode." />
+    <Item Key="final_patch_game_object_pool_label" Value="GameObject Pool" />
+    <Item Key="final_patch_pool_asset_name_label" Value="Asset Name" />
+    <Item Key="final_patch_pool_ref_count_label" Value="Ref Count" />
+    <Item Key="final_patch_pool_free_count_label" Value="Free Count" />
+    <Item Key="final_patch_pool_release_countdown_label" Value="Release Countdown" />
+    <Item Key="final_patch_cache_label" Value="Asset Cache" />
+    <Item Key="final_patch_cache_name_label" Value="Name" />
+    <Item Key="final_patch_cache_state_label" Value="State" />
+    <Item Key="final_patch_cache_ref_count_label" Value="Ref Count" />
+    <Item Key="msg_build_success" Value="Build Success" />
+    <Item Key="msg_build_failure_notification" Value="Build failure. Please check console for more details." />
+    <Item Key="msg_build_failure_no_previous_patch_data" Value="Not found previous version. Please check 'Full Package' if you meant to." />
+    <Item Key="msg_select_asset_path_failure" Value="'{0}' not in project. Only support folders in project." />
+  </Items>
+</LocalizationData>
