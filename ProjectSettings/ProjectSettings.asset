@@ -66,7 +66,7 @@ PlayerSettings:
   androidStartInFullscreen: 1
   androidRenderOutsideSafeArea: 1
   androidUseSwappy: 0
-  androidBlitType: 0
+  androidBlitType: 1
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
   runInBackground: 1
@@ -78,7 +78,7 @@ PlayerSettings:
   hideHomeButton: 0
   submitAnalytics: 1
   usePlayerLog: 1
-  bakeCollisionMeshes: 0
+  bakeCollisionMeshes: 1
   forceSingleInstance: 0
   useFlipModelSwapchain: 1
   resizableWindow: 0
@@ -151,6 +151,8 @@ PlayerSettings:
       sharedDepthBuffer: 1
       dashSupport: 1
       lowOverheadMode: 0
+      protectedContext: 0
+      v2Signing: 0
     enable360StereoCapture: 0
   isWsaHolographicRemotingEnabled: 0
   protectGraphicsMemory: 0
@@ -615,7 +617,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     1: EASY_MOBILE;EASY_MOBILE_PRO;UNITY_POST_PROCESSING_STACK_V2
     4: EASY_MOBILE;EASY_MOBILE_PRO
-    7: EASY_MOBILE;EASY_MOBILE_PRO;UNITY_POST_PROCESSING_STACK_V2
+    7: EASY_MOBILE;EASY_MOBILE_PRO;UNITY_POST_PROCESSING_STACK_V2;UNITY_CCU;PLANNER_ACTIONS_GENERATED;PLANNER_DOMAIN_GENERATED
     13: EASY_MOBILE;EASY_MOBILE_PRO;UNITY_POST_PROCESSING_STACK_V2
     14: EASY_MOBILE;EASY_MOBILE_PRO
     19: EASY_MOBILE;EASY_MOBILE_PRO;UNITY_POST_PROCESSING_STACK_V2
@@ -629,7 +631,7 @@ PlayerSettings:
   scriptingBackend:
     Android: 1
   il2cppCompilerConfiguration:
-    Android: 2
+    Android: 1
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}
   allowUnsafeCode: 0
